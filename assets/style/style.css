@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Celtica';
+    src: url('../fonts/Celtica-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h3{
+    font-family: 'Celtica', sans-serif;
+}
+
+header, #presentation, footer, #mainCreateur, article, #mainCreations{
+    background-color: #151515;
+}
+
+#menu {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#menu.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+#menu:not(.hidden) {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.neomorphism {
+    background: #151515;
+    border-radius: 10px;
+    box-shadow: inset 10px 10px 10px #0d0d0d, inset -10px -10px 10px #191919;
+    transition: all 0.3s ease;
+}
+
+.neomorphism:hover {
+    box-shadow: 10px 10px 20px #0d0d0d, -10px -10px 20px #1b1a1a;
+}
+

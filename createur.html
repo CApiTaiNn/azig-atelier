@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Azïg Atelier</title>
+        <meta name="description" content="Découvrez les créations uniques de l'atelier Azïg, artisan bijoutier.">
+        <meta name="keywords" content="bijoux, artisan, création, Azïg Atelier">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="assets/style/style.css">
+    </head>
+    <body class="bg-gray-100 text-gray-900">
+        <header class="flex justify-between items-center p-5 text-white sticky top-0 z-50 shadow-lg">
+            <img src="assets/images/logo.png" alt="Logo Azïg Atelier" class="h-14">
+            <h1 class="text-yellow-400 text-5xl"> <a href="index.html">Azïg Atelier</a></h1>
+            <button id="menu-toggle" class="text-2xl focus:outline-none">
+                <span class="material-icons">menu</span>
+            </button>
+            <nav id="menu" class="hidden absolute top-full right-0 bg-gray-800 text-white p-5 rounded-lg shadow-lg transition-transform transform translate-y-[-100%]">
+                <ul class="flex flex-col space-y-2">
+                    <li><a href="index.html" class="text-white">Accueil</a></li>
+                    <li><a href="creations.html" class="text-white">Les Créations</a></li>
+                    <li><a href="createur.html" class="text-white">Le Créateur</a></li>
+                    <li><a href="contact.html" class="text-white">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="p-5" id="mainCreateur">
+            <h2 class="text-center text-3xl text-yellow-400 font-bold">Ronan Pennaneac'h, créateur de bijoux</h2>
+            <br>
+            <section>
+                <article class="flex justify-center items-center space-x-5">
+                    <img src="assets/images/ronan-page-createur.webp" alt="ronan-page-createur" class="rounded-lg">
+                    <div class="p-5 border-2">
+                        <h3 class="text-xl text-yellow-400">Coup de coeur pour l'orfèvrerie</h3>
+                        <br>
+                        <p class="text-yellow-400 text-justify">
+                            Après un diplôme en hôtellerie et vingt ans de travail au fourneau à élaborer des plats pour le plaisir des yeux et du palais, 
+                            une rencontre fortuite s'est produite. Un changement de vie m'a fait découvrir les métaux précieux et le monde du bijou. 
+                            J'ai suivi pendant deux ans une formation professionnelle spécialisée et diplômante dans l'art et technique de la bijouterie-joaillerie à l'École TANE (56).
+                            J'y ai immédiatement trouvé du plaisir.
+                            Créer pièces uniques et petites séries - pas plus de 8 exemplaires - et prendre du temps avec le client pour lui offrir un bijou à son image,
+                            c'est tout simplement passionnant. Toutes mes réalisations sont créées et façonnées de manière artisanale en or ou argent et parfois ornementées de gemmes.
+                            Je peux passer des heures à cuisiner et le faire sans prétention, 
+                            avec amour et dans l'attente du bonheur de rendre les autres heureux. 
+                            C'est ce que j'essaie de faire avec les bijoux.
+                        </p>
+                    </div>
+                    
+                </article>
+            </section>
+        </main>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

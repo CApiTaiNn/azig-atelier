@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Azïg Atelier - Les Créations</title>
+        <meta name="description" content="Découvrez les créations uniques de l'atelier Azïg, artisan bijoutier.">
+        <meta name="keywords" content="bijoux, artisan, création, Azïg Atelier">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="assets/style/style.css">
+    </head>
+    <body >
+        <header class="flex justify-between items-center p-5 text-white sticky top-0 z-50 shadow-lg">
+            <img src="assets/images/logo.png" alt="Logo Azïg Atelier" class="h-14">
+            <h1 class="text-yellow-400 text-5xl"> <a href="index.html">Azïg Atelier</a></h1>
+            <button id="menu-toggle" class="text-2xl focus:outline-none">
+                <span class="material-icons">menu</span>
+            </button>
+            <nav id="menu" class="hidden absolute top-full right-0 text-white p-5 rounded-lg shadow-lg transition-transform transform translate-y-[-100%]">
+                <ul class="flex flex-col space-y-2">
+                    <li><a href="index.html" class="text-white">Accueil</a></li>
+                    <li><a href="creations.html" class="text-white">Les Créations</a></li>
+                    <li><a href="createur.html" class="text-white">Le Créateur</a></li>
+                    <li><a href="contact.html" class="text-white">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="p-10" id="mainCreations">
+            <h2 class="text-4xl mb-5 text-yellow-400">Mes Créations</h2>
+            <hr>
+            <section>
+                <article>
+                    <h3 class="text-yellow-400 text-center text-2xl mt-10 mb-5">Colliers et Pendentifs</h3>
+                    <div class="flex flex-row justify-center space-x-5">
+                        <div class="imgCreation">
+                            <img src="assets/images/colliers/collier-nacre.jpg" alt="collier-nacre">
+                            <p class="text-yellow-400 text-center">Collier nacre</p>
+                        </div>
+                        <div class="imgCreation">
+                            <img src="assets/images/colliers/pendentif-argent-925-et-perle-gold.jpg" alt="pendentif-argent-925-et-perle-gold">
+                            <p class="text-yellow-400 text-center">Pendentif argent et gold</p>
+                        </div>
+                        <div class="imgCreation">
+                            <img src="assets/images/colliers/pendentif-argent.jpg" alt="pendentif-argent">
+                            <p class="text-yellow-400 text-center">Pendentif argent</p>
+                        </div>
+                    </div>
+                </article>
+                <br>
+                <article>
+                    <h3 class="text-yellow-400 text-center text-2xl mt-10">Bagues</h3>
+                    <br>
+                    <div class="flex flex-row justify-center space-x-5">
+                        <div class="imgCreation">
+                            <img src="assets/images/bagues/bague-antique-chic.jpg" alt="bague-antique-chic">
+                            <p class="text-yellow-400 text-center">Bague antique chic</p>
+                        </div>
+                        <div class="imgCreation">
+                            <img src="assets/images/bagues/bague-gravee.jpg" alt="bague-gravee">
+                            <p class="text-yellow-400 text-center">Bague gravée</p>
+                        </div>
+                        <div class="imgCreation">
+                            <img src="assets/images/bagues/bague-tahiti.jpg" alt="bague-tahiti">
+                            <p class="text-yellow-400 text-center">Bague tahiti</p>
+                        </div>
+                    </div>
+                </article>
+                <br>
+                <article>
+                    <h3 class="text-yellow-400 text-center text-2xl mt-10">Boucles d'oreilles</h3>
+                    <br>
+                    <div class="flex flex-row justify-center space-x-5">
+                        <div class="imgCreation">
+                            <img src="assets/images/boucles-oreilles/bo-fleur.jpg" alt="bo-fleur">
+                            <p class="text-yellow-400 text-center">Boucle d'oreilles fleurs</p>
+                        </div>
+                        <div class="imgCreation">
+                            <img src="assets/images/boucles-oreilles/bo-triangle.jpg" alt="bo-triangle">
+                            <p class="text-yellow-400 text-center">Boucle d'oreilles triangles</p>
+                        </div>
+                        <div class="imgCreation">
+                            <img src="assets/images/boucles-oreilles/bocarre-martelee.jpg" alt="bocarre-martelee">
+                            <p class="text-yellow-400 text-center">Boucle d'oreilles carrés et martelées</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer class="text-white p-5 text-center">
+            <p>Contact</p>
+        </footer>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
