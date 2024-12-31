@@ -11,20 +11,12 @@
         <link rel="stylesheet" href="assets/style/style.css">
     </head>
     <body >
-        <header class="flex justify-between items-center p-5 text-white sticky top-0 z-50 shadow-lg">
-            <img src="assets/images/logo.png" alt="Logo Azïg Atelier" class="h-14">
-            <h1 class="text-yellow-400 text-5xl"> <a href="index.html">Azïg Atelier</a></h1>
-            <button id="menu-toggle" class="text-2xl focus:outline-none">
+        <header class="flex justify-between items-center p-3 md:p-5 text-white sticky top-0 z-50 shadow-lg">
+            <img src="assets/images/logo.png" alt="Logo Azïg Atelier" class="h-8 md:h-14">
+            <h1 class="text-yellow-400 text-2xl md:text-5xl mx-auto xs:text-xl">Azïg Atelier</h1>
+            <button id="menu-toggle" class="text-2xl absolute right-5">
                 <span class="material-icons">menu</span>
             </button>
-            <nav id="menu" class="hidden absolute top-full right-0 text-white p-5 rounded-lg shadow-lg transition-transform transform translate-y-[-100%]">
-                <ul class="flex flex-col space-y-2">
-                    <li><a href="index.html" class="text-white">Accueil</a></li>
-                    <li><a href="creations.html" class="text-white">Les Créations</a></li>
-                    <li><a href="createur.html" class="text-white">Le Créateur</a></li>
-                    <li><a href="contact.html" class="text-white">Contact</a></li>
-                </ul>
-            </nav>
         </header>
         <main class="p-10" id="mainCreations">
             <h2 class="text-4xl mb-5 text-yellow-400">Mes Créations</h2>
@@ -33,15 +25,15 @@
                 <article>
                     <h3 class="text-yellow-400 text-center text-2xl mt-10 mb-5">Colliers et Pendentifs</h3>
                     <div class="flex flex-row justify-center space-x-5">
-                        <div class="imgCreation">
+                        <div class="imgCreation hover:scale-125 hover:m-10">
                             <img src="assets/images/colliers/collier-nacre.jpg" alt="collier-nacre">
                             <p class="text-yellow-400 text-center">Collier nacre</p>
                         </div>
-                        <div class="imgCreation">
+                        <div class="imgCreation hover:scale-125 hover:m-10">
                             <img src="assets/images/colliers/pendentif-argent-925-et-perle-gold.jpg" alt="pendentif-argent-925-et-perle-gold">
                             <p class="text-yellow-400 text-center">Pendentif argent et gold</p>
                         </div>
-                        <div class="imgCreation">
+                        <div class="imgCreation hover:scale-125 hover:m-10">
                             <img src="assets/images/colliers/pendentif-argent.jpg" alt="pendentif-argent">
                             <p class="text-yellow-400 text-center">Pendentif argent</p>
                         </div>
