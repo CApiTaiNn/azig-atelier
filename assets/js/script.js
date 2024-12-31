@@ -12,9 +12,9 @@ function toggleMenu() {
     if (!menu) {
         menu = document.createElement('nav');
         menu.id = 'menu';
-        menu.className = 'absolute top-full right-0 text-white transition-transform transform translate-y-[-100%] md:relative md:top-0 md:flex md:items-center md:space-x-5 md:translate-y-0';
+        menu.className = 'rounded-lg absolute top-full right-0 text-white transition-transform transform translate-y-[-100%] md:relative md:top-0 md:flex md:items-center md:space-x-5 md:translate-y-0';
         menu.innerHTML = `
-            <ul class="flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-5">
+            <ul class="flex flex-col space-y-2 p-5  md:flex-row md:space-y-0 md:space-x-5">
                 <li><a href="index.html" class="text-white">Accueil</a></li>
                 <li><a href="creations.html" class="text-white">Les Créations</a></li>
                 <li><a href="createur.html" class="text-white">Le Créateur</a></li>
