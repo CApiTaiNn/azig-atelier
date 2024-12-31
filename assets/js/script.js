@@ -37,3 +37,11 @@ function hideMenu() {
 }
 
 document.getElementById('menu-toggle').addEventListener('click', toggleMenu);
+
+document.addEventListener('click', function(event) {
+    const menu = document.getElementById('menu');
+    const menuToggle = document.getElementById('menu-toggle');
+    if (menu && !menu.contains(event.target) && !menuToggle.contains(event.target)) {
+        hideMenu();
+    }
+});
