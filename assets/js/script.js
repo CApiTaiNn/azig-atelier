@@ -8,11 +8,15 @@ window.addEventListener('load', function() {
 function toggleMenu() {
     const menu = document.getElementById('menu');
     menu.classList.toggle('hidden');
+    this.classList.toggle('hidden');
+    console.log('toggle');
 }
 
 function hideMenu() {
     const menu = document.getElementById('menu');
+    let menuBurger = document.getElementById('menu-toggle');
     menu.classList.add('hidden');
+    menuBurger.classList.toggle('hidden');
 }
 
 document.getElementById('menu-toggle').addEventListener('click', toggleMenu);
