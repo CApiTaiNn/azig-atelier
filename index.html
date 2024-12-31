@@ -10,14 +10,14 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="assets/style/style.css">
     </head>
-    <body class="bg-gray-100 text-gray-900">
+    <body class="text-gray-900">
         <header class="flex justify-between items-center p-5 text-white sticky top-0 z-50 shadow-lg">
             <img src="assets/images/logo.png" alt="Logo Azïg Atelier" class="h-14">
             <h1 class="text-yellow-400 text-5xl">Azïg Atelier</h1>
             <button id="menu-toggle" class="text-2xl focus:outline-none">
                 <span class="material-icons">menu</span>
             </button>
-            <nav id="menu" class="hidden absolute top-full right-0 bg-gray-800 text-white p-5 rounded-lg shadow-lg transition-transform transform translate-y-[-100%]">
+            <nav id="menu" class="hidden absolute top-full right-0 p-5 rounded-lg shadow-lg transition-transform transform translate-y-[-100%]">
                 <ul class="flex flex-col space-y-2">
                     <li><a href="index.html" class="text-white">Accueil</a></li>
                     <li><a href="creations.html" class="text-white">Les Créations</a></li>
@@ -27,27 +27,36 @@
             </nav>
         </header>
         <main>
-            <section class="h-screen bg-cover bg-center" style="background-image: url('assets/images/boucle_oreille_fond.jpg'); background-attachment: fixed;">
+            <section class="relative h-screen flex items-center justify-center">
+                <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
+                    <source src="assets/videos/Obsidienne_Oeil_Céleste.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas les vidéos HTML5.
+                </video>
+                <div class="relative z-10 text-center text-yellow-400 mt-40">
+                    <h2 class="text-6xl font-bold mb-4">Bienvenue à Azïg Atelier</h2>
+                    <p class="text-2xl">Créateur de bijoux personnalisés</p>
+                </div>
+                <div class="absolute inset-0 bg-black opacity-50"></div>
             </section>
-            <section class="bg-gray-800 p-10" id="presentation">
+            <section class="p-10" id="presentation">
                 <h3 class="text-white text-5xl mb-10 text-center text-yellow-400">Artisan Bijoutier</h3>
                 <div class="flex justify-center space-x-5">
-                    <article class="flex-1 max-w-xl p-5 neomorphism">
+                    <article class="flex-1 max-w-xl p-5 bg-gray-800 rounded-lg shadow-lg transform transition-transform hover:scale-105">
                         <a href="creations.html">
                             <div class="rounded-lg overflow-hidden">
                                 <p class="p-4 text-center text-yellow-400 text-2xl">Les Créations</p>
-                                <img src="assets/images/creations.jpg" alt="bijoux">
+                                <img src="assets/images/creations.jpg" alt="bijoux" class="w-full h-auto">
                                 <p class="p-4 text-yellow-400 text-center">
                                     Découvrez les créations, bagues, colliers ou encore boucle d'oreilles.
                                 </p>
                             </div>
                         </a>
                     </article>
-                    <article class="flex-1 max-w-xl p-5 neomorphism">
+                    <article class="flex-1 max-w-xl p-5 bg-gray-800 rounded-lg shadow-lg transform transition-transform hover:scale-105">
                         <a href="createur.html">
                             <div class="rounded-lg overflow-hidden">
                                 <p class="p-4 text-center text-yellow-400 text-2xl">Le Créateur</p>
-                                <img src="assets/images/ronan.jpg" alt="portrait">
+                                <img src="assets/images/ronan.jpg" alt="portrait" class="w-full h-auto">
                                 <p class="p-4 text-yellow-400 text-center">
                                     Des pièces uniques dont vous êtes l'inspiration !
                                 </p>
@@ -56,7 +65,7 @@
                     </article>
                 </div>
             </section>
-            <article class="p-5 text-center text-yellow-400 ">
+            <article class="p-5 text-center text-yellow-400">
                 <h3 class="text-2xl">Prendre contact</h3>
                 <ul>
                     <li>Adresse : Languidic</li>
@@ -66,12 +75,10 @@
                 </ul>
             </article>
         </main>
-        <hr>
-        <footer class="text-white p-5 text-center">
-            <div>
-                <p>© 2025 Azïg Atelier</p>
-                <p>Créé par Sloan MORGANT</p>
-            </div>
+        <footer class="bg-gray-800 text-white p-5 text-center">
+            <p>Contact</p>
+            <p>© 2025 Azïg Atelier</p>
+            <p>Créé par Sloan MORGANT</p>
         </footer>
         <script src="assets/js/script.js"></script>
     </body>
