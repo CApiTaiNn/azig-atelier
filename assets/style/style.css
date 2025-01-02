@@ -9,7 +9,7 @@ h1, h3{
     font-family: 'Celtica', sans-serif;
 }
 
-header, footer, #mainCreateur, article, #mainCreations, #menu{
+header, footer, #mainCreateur, #mainCreations, #menu{
     background-color: #151515;
 }
 
