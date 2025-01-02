@@ -5,11 +5,11 @@
     font-style: normal;
 }
 
-h1, h3{
+h1, h3, #Createur, #Creations{
     font-family: 'Celtica', sans-serif;
 }
 
-header, footer, #mainCreateur, #mainCreations, #menu{
+footer, #mainCreateur, #mainCreations, #menu{
     background-color: #151515;
 }
 
