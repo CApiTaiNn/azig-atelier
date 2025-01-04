@@ -11,7 +11,7 @@ window.addEventListener('load', function() {
 });
 
 
-const diapo = ['bagueOr.jpg', 'boArgent.jpg', 'bagueSurVerre.jpg'];
+const diapo = ['bagueOr.jpg', 'bagueSurVerre.jpg', 'ronanNoirBlanc.jpg'];
 let index = 0;
 
 function animLancement() {
