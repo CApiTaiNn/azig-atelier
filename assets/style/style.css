@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'Celtica';
-    src: url('../fonts/Celtica-Bold.ttf') format('truetype');
+    font-family: 'Segoe';
+    src: url('../fonts/segoepr.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-h1, h3, #Createur, #Creations{
-    font-family: 'Celtica', sans-serif;
+h1, h2, h3, #Createur, #Creations{
+    font-family: 'Segoe', sans-serif;
 }
 
-footer, #mainCreateur, #mainCreations, #menu{
+footer, #mainCreateur, #menu{
     background-color: #151515;
 }
 

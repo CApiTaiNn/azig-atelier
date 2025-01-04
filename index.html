@@ -24,17 +24,16 @@
         </header>
         <main>
             <section class="relative h-screen flex items-center justify-center bg-[#2C2C2C]">
-                <img src="assets/videos/Obsidienne_Oeil_Céleste.gif" alt="videoFond" class="absolute inset-0 w-full h-full object-cover">
+                <img id="fond" src="assets/images/ronanNoirBlanc.jpg" alt="diapoFond" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000">
                 <div class="relative z-10 text-center text-yellow-400 mt-40">
-                    <h2 class="text-6xl font-bold mb-4">Bienvenue chez Azïg Atelier</h2>
-                    <p class="text-2xl">Créateur de bijoux personnalisés</p>
+                    <h2 class="text-6xl font-bold mb-4">Artisan d'art Bijoutier Joaillier</h2>
                 </div>
                 <div class="absolute inset-0 bg-black opacity-50"></div>
             </section>
             <section class="bg-gray flex flex-col" id="presentation">
                 <a href="creations.html">
                     <article class="flex flex-col md:flex-row  items-center transform transition-transform hover:scale-105 border-b-2">
-                        <img src="assets/images/creations.jpg" alt="bijoux" class="w-full md:w-2/4 h-aut">
+                        <img src="assets/images/creations.jpg" alt="bijoux" class="w-full md:w-2/4 h-auto">
                         <div class="flex flex-col justify-center items-center align-items-center m-auto">
                             <p id="Creations" class="p-4 text-center text-[#FFD700] md:text-6xl">Les Créations</p>
                             <p class="text-black text-center text-xs pb-4 md:text-xl md:pt-4">
@@ -45,15 +44,22 @@
                 </a>
                 <a href="createur.html">
                     <article class="flex flex-col md:flex-row-reverse items-center rounded-lg transform transition-transform hover:scale-105 min-w-40 min-h-40">
-                        <img src="assets/images/ronanAccueil.webp" alt="portrait" class="w-full md:w-2/4 h-aut">
+                        <img src="assets/images/ronanAccueil.webp" alt="portrait" class="w-full md:w-2/4 h-autp">
                         <div class="flex flex-col justify-center items-center align-items-center m-auto">
                             <p id="Createur" class="p-4 text-center text-[#FFD700] md:text-6xl">Le Créateur</p>
-                            <p class="text-black text-center text-xs pb-4 md:text-xl">
+                            <p class="text-black text-center text-xs pb-4 md:text-xl md:pt-4">
                                 Bijoutier passionné, je vous présente mon atelier.
                             </p>
                         </div>
                     </article>
                 </a>
+            </section>
+            <section class="bg-gray-800 text-gray-300 p-5 text-center space-y-10">
+                <h3 class="text-5xl mb-4">Vous souhaitez vous offrir un peu de magie !</h3>
+                <p class="text-lg">Création de bijoux contemporain</p>
+                <p class="text-lg">Pièces uniques & petites séries</p>
+                <p class="text-lg">Créations personnalisés</p>
+                <i class="fa-solid fa-arrow-down text-5xl"></i>
             </section>
         </main>
         <footer class="bg-gray-900">
