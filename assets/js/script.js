@@ -9,7 +9,6 @@ function toggleMenu() {
                 <li><a href="index.html" class="text-gray-900">Accueil</a></li>
                 <li><a href="creations.html" class="text-gray-900">Les Créations</a></li>
                 <li><a href="createur.html" class="text-gray-900">Le Créateur</a></li>
-                <li><a href="contact.html" class="text-gray-900">Contact</a></li>
             </ul>
         `;
         document.querySelector('header').appendChild(menu);
