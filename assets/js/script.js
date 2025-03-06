@@ -5,10 +5,16 @@ function toggleMenu() {
         menu.id = 'menu';
         menu.className = 'rounded-lg absolute top-full right-0 transition-transform transform translate-y-[-100%] md:relative md:top-0 md:flex md:items-center md:space-x-5 md:translate-y-0';
         menu.innerHTML = `
-            <ul class="flex flex-col space-y-2 p-5 bg-gray-300 text-gray-900 rounded-lg md:flex-row md:space-y-0 md:space-x-5">
-                <li><a href="index.html" class="text-gray-900">Accueil</a></li>
-                <li><a href="creations.html" class="text-gray-900">Les Créations</a></li>
-                <li><a href="createur.html" class="text-gray-900">Le Créateur</a></li>
+            <ul class="flex flex-row m-5 gap-4 md:gap-8">
+                <li>
+                    <a href="index.html" class="text-white hover:text-yellow-400">Accueil</a>
+                </li>
+                <li>
+                    <a href="createur.html" class="text-white hover:text-yellow-400">Créations</a>
+                </li>
+                <li>
+                    <a href="creations.html" class="text-white hover:text-yellow-400">Créateur</a>
+                </li>
             </ul>
         `;
         document.querySelector('header').appendChild(menu);
