@@ -20,3 +20,4 @@ jobs:
           password: ${{ secrets.FTP_PASS }}
           local-dir: ./
           server-dir: /www/
+          only-changed: true
